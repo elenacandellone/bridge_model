@@ -1,0 +1,4 @@
+# Bridge model
+Small project carried for the course "Numerical simulations" attended in Paris.
+
+One considers an one-dimensional stochastic model where particles enter a channel randomly according an exponential probability <img src="https://render.githubusercontent.com/render/math?math=P(\lambda) = \lambda*e^{- \lambda t}">, where λ is the mean incoming flux. The time spent in the channel is the same for all particles and is denoted by τ = L/v where L is the length of the channel. When two particles are simultaneously present, the channel becomes blocked and no particle can enter the channel. After a finite duration τb, the blocked channel is released because one assumes that two particles exit the channel at the same time. Let us denote P0(t), P1(t) and P2(t), the probabilities of having a channel at time t with 0, 1 or 2 particles respectively.
